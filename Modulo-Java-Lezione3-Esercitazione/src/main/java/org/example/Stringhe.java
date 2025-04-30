@@ -1,5 +1,15 @@
 package org.example;
 
+//Le stringhe sono sequenze di caratteri utilizzate per rappresentare testo.
+//In Java, le stringhe sono rappresentate dalla classe String.
+//Le stringhe sono immutabili, il che significa che una volta create, non possono essere modificate.
+//Tuttavia, è possibile creare nuove stringhe a partire da quelle esistenti.
+//Le stringhe possono essere concatenate, confrontate e manipolate in vari modi.
+//In questo esercizio, esploreremo alcune operazioni comuni sulle stringhe, come la lunghezza, la conversione in maiuscolo,
+//la concatenazione, la ricerca di sottostringhe e la rimozione degli spazi bianchi.
+//Le operazioni sulle stringhe sono fondamentali in molti programmi e applicazioni, come la manipolazione
+//di testo, la validazione degli input e la formattazione dei dati.
+
 public class Stringhe {
     public static void main(String[] args) {
         //Esercizio 1:

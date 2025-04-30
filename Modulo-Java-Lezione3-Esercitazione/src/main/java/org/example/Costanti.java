@@ -1,5 +1,8 @@
 package org.example;
 
+//Le costanti sono variabili il cui valore non può essere modificato dopo la loro inizializzazione.
+//In Java, le costanti vengono dichiarate utilizzando la parola chiave "final".
+
 public class Costanti {
     public static void main(String[] args) {
         //Esercizio 1: Definizione di Costanti con final

@@ -1,5 +1,13 @@
 package org.example;
 
+//Le variabili sono spazi di memoria utilizzati per memorizzare dati temporanei durante l'esecuzione di un programma.
+//In Java, le variabili devono essere dichiarate prima di essere utilizzate.
+//Ogni variabile ha un tipo, che determina il tipo di dati che può contenere.
+//I tipi di variabili più comuni in Java sono:
+//int (interi), double (numeri decimali), char (caratteri), boolean (vero o falso) e String (stringhe di testo).
+//Le variabili possono essere inizializzate con un valore e possono essere modificate durante l'esecuzione del programma.
+//In questo esercizio, esploreremo come dichiarare e utilizzare variabili di diversi tipi in Java.
+
 public class Variabili {
     public static void main(String[] args) {
         //------------------------------------------------------------------------------

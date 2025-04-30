@@ -5,6 +5,7 @@ package org.example;
 // condizione ? valore_se_vero : valore_se_falso;
 // Se la condizione è vera, viene restituito il valore_se_vero; altrimenti, viene restituito il valore_se_falso.
 // L'operatore ternario è spesso utilizzato come alternativa compatta a un'istruzione if-else.
+
 public class OperatoreTernario {
     public static void main(String[] args) {
         //Esercizio 1:

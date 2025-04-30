@@ -1,5 +1,11 @@
 package org.example;
 
+// Gli operatori di confronto sono utilizzati per confrontare due valori e restituire un valore booleano (vero o falso).
+// Gli operatori di confronto più comuni in Java sono:
+// == (uguale), != (diverso), > (maggiore), < (minore), >= (maggiore o uguale), <= (minore o uguale).
+// Gli operatori di confronto sono fondamentali per prendere decisioni nel codice e controllare il flusso di esecuzione.
+// In questo esercizio, esploreremo alcuni operatori di confronto e come utilizzarli in vari contesti.
+
 public class OperatoriDiComparazione {
     public static void main(String[] args) {
         //Esercizio 1:

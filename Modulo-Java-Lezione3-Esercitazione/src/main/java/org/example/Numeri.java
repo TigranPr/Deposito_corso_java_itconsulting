@@ -2,6 +2,12 @@ package org.example;
 
 import java.util.Random;
 
+//I numeri sono una parte fondamentale della programmazione e possono essere rappresentati in vari modi.
+//In Java, i numeri possono essere rappresentati come interi (int), numeri decimali (double), e altri tipi numerici.
+//In questo esercizio, esploreremo alcune operazioni di base sui numeri, come somma, differenza, prodotto e quoziente.
+//Inoltre, vedremo come generare numeri casuali e trovare il valore massimo e minimo tra i numeri.
+//Le operazioni matematiche di base sono fondamentali in molti programmi e applicazioni.
+
 public class Numeri {
     public static void main(String[] args) {
         //Esercizio 1:

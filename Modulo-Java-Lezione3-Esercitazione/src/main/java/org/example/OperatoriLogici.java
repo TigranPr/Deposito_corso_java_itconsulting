@@ -1,5 +1,12 @@
 package org.example;
 
+//Gli operatori logici sono utilizzati per combinare più condizioni e restituire un valore booleano (vero o falso).
+//Gli operatori logici più comuni in Java sono:
+//&& (AND), || (OR) e ! (NOT).
+//Gli operatori logici sono fondamentali per prendere decisioni complesse nel codice e controllare il flusso di esecuzione.
+//In questo esercizio, esploreremo alcuni operatori logici e come utilizzarli in vari contesti.
+//Gli operatori logici sono spesso utilizzati in combinazione con gli operatori di confronto
+
 public class OperatoriLogici {
     public static void main(String[] args) {
         //Esercizio 1:
