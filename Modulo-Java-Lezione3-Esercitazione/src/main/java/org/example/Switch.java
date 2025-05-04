@@ -184,7 +184,138 @@ public class Switch {
                 costoSpedizione = -1; // Valore non valido
         }
         System.out.println("Il costo di spedizione per un pacco di " + peso + " kg è: " + costoSpedizione + " euro.");
-
+        //--------------------------------------------------------------------------
+        //Esercizio 7
+        //Scrivi un programma Java che stampa il nome di un mese abbreviato corrispondente a un numero utilizzando il blocco "switch".
+        int numeMese = 4; // Cambia il numero per testare altri mesi
+        String meseAbbr;
+        switch(numeMese){
+            case 1:
+                meseAbbr = "Gen";
+                break;
+            case 2:
+                meseAbbr = "Feb";
+                break;
+            case 3:
+                meseAbbr = "Mar";
+                break;
+            case 4:
+                meseAbbr = "Apr";
+                break;
+            case 5:
+                meseAbbr = "Mag";
+                break;
+            case 6:
+                meseAbbr = "Giu";
+                break;
+            case 7:
+                meseAbbr = "Lug";
+                break;
+            case 8:
+                meseAbbr = "Ago";
+                break;
+            case 9:
+                meseAbbr = "Set";
+                break;
+            case 10:
+                meseAbbr = "Ott";
+                break;
+            case 11:
+                meseAbbr = "Nov";
+                break;
+            case 12:
+                meseAbbr = "Dic";
+                break;
+            default:
+                meseAbbr = "Numero non valido";
+        }
+        System.out.println("Il mese abbreviato è: " + meseAbbr);
+        //--------------------------------------------------------------------------
+        //Esercizio 8
+        //Scrivi un programma Java che stampa il numero romano corrispondente a un numero decimale utilizzando il blocco "switch".
+        int numeroDecimale2 = 8; // Cambia il numero decimale per testare altri valori
+        String numeroRomano2;
+        switch (numeroDecimale2) {
+            case 1:
+                numeroRomano2 = "I";
+                break;
+            case 2:
+                numeroRomano2 = "II";
+                break;
+            case 3:
+                numeroRomano2 = "III";
+                break;
+            case 4:
+                numeroRomano2 = "IV";
+                break;
+            case 5:
+                numeroRomano2 = "V";
+                break;
+            case 6:
+                numeroRomano2 = "VI";
+                break;
+            case 7:
+                numeroRomano2 = "VII";
+                break;
+            case 8:
+                numeroRomano2 = "VIII";
+                break;
+            case 9:
+                numeroRomano2 = "IX";
+                break;
+            case 10:
+                numeroRomano2 = "X";
+                break;
+            default:
+                numeroRomano2 = "Numero non valido";
+        }
+        System.out.println("Il numero decimale " + numeroDecimale2 + " corrisponde al numero romano " + numeroRomano2 + ".");
+        //--------------------------------------------------------------------------
+        //Esercizio 9
+        //Scrivi un programma Java che stampa il nome del colore corrispondente a un codice utilizzando il blocco "switch".
+        String colore = "Y"; // Cambia il codice per testare altri colori
+        String nomeColore;
+        switch (colore) {
+            case "R":
+                nomeColore = "Rosso";
+                break;
+            case "G":
+                nomeColore = "Verde";
+                break;
+            case "B":
+                nomeColore = "Blu";
+                break;
+            case "Y":
+                nomeColore = "Giallo";
+                break;
+            case "O":
+                nomeColore = "Arancione";
+                break;
+            default:
+                nomeColore = "Colore non valido";
+        }
+        System.out.println("Il colore corrispondente al codice " + colore + " è: " + nomeColore);
+        //--------------------------------------------------------------------------
+        //Esercizio 10
+        //Scrivi un programma Java che calcola il prezzo di un prodotto in base al codice utilizzando il blocco "switch".
+        String codiceProdotto = "A"; // Cambia il codice per testare altri prodotti
+        double prezzoProdotto;
+        switch (codiceProdotto) {
+            case "A":
+                prezzoProdotto = 10.0;
+                break;
+            case "B":
+                prezzoProdotto = 20.0;
+                break;
+            case "C":
+                prezzoProdotto = 30.0;
+                break;
+            case "D":
+                prezzoProdotto = 40.0;
+                break;
+            default:
+                prezzoProdotto = -1; // Valore non valido
+        }
+        System.out.println("Il prezzo del prodotto con codice " + codiceProdotto + " è: " + prezzoProdotto + " euro.");
     }
-
 }
