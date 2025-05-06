@@ -93,6 +93,19 @@ public class Esercizio1 {
         //Esercizio 9
         //Ordinare un array di numeri interi in ordine crescente:
         int[] array9 = {9, 56, 85, 16, 37};
+        Arrays.sort(array9);// utilizza il metodo sort della classe Arrays per ordinare l'array
+        System.out.println("Array ordinato in ordine crescente: " + Arrays.toString(array9));
+        //--------------------------------------------------------------------
+        //Esercizio 10
+        //Ordinare un array di numeri interi in ordine decrescente:
+        int[] array10 = {9, 56, 85, 16, 37};
+        Arrays.sort(array10);// utilizza il metodo sort della classe Arrays per ordinare l'array
+        int[] arrayDecrescente = new int[array10.length];// crea un nuovo array della stessa lunghezza
+        for (int i = 0; i < array10.length; i++) {
+            arrayDecrescente[i] = array10[array10.length - 1 - i];// copia gli elementi in ordine inverso
+        }
+        System.out.println("Array ordinato in ordine decrescente: " + Arrays.toString(arrayDecrescente));
+
 
 
     }
