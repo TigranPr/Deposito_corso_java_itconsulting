@@ -1,5 +1,8 @@
 package org.example;
 
+// Gli Array sono una struttura dati che permette di memorizzare una collezione di elementi dello stesso tipo.
+// Sono utili per memorizzare una serie di valori e possono essere utilizzati in vari modi.
+// In questo esempio, vedremo come utilizzare gli array in Java per risolvere alcuni esercizi pratici.
 
 import java.util.Arrays;
 
